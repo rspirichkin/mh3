@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF49262F1B5FE3FD00C53955 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF49262E1B5FE3FD00C53955 /* AppDelegate.swift */; };
+		FF4926311B5FE3FD00C53955 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4926301B5FE3FD00C53955 /* ViewController.swift */; };
+		FF4926341B5FE3FD00C53955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4926321B5FE3FD00C53955 /* Main.storyboard */; };
+		FF4926371B5FE3FD00C53955 /* mh3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF4926351B5FE3FD00C53955 /* mh3.xcdatamodeld */; };
+		FF4926391B5FE3FD00C53955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4926381B5FE3FD00C53955 /* Assets.xcassets */; };
+		FF49263C1B5FE3FD00C53955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF49263A1B5FE3FD00C53955 /* LaunchScreen.storyboard */; };
+		FF4926471B5FE3FE00C53955 /* mh3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4926461B5FE3FE00C53955 /* mh3Tests.swift */; };
+		FF4926521B5FE3FE00C53955 /* mh3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4926511B5FE3FE00C53955 /* mh3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF4926431B5FE3FE00C53955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4926231B5FE3FD00C53955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF49262A1B5FE3FD00C53955;
+			remoteInfo = mh3;
+		};
+		FF49264E1B5FE3FE00C53955 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF4926231B5FE3FD00C53955 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF49262A1B5FE3FD00C53955;
+			remoteInfo = mh3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF49262B1B5FE3FD00C53955 /* mh3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mh3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF49262E1B5FE3FD00C53955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF4926301B5FE3FD00C53955 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF4926331B5FE3FD00C53955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF4926361B5FE3FD00C53955 /* mh3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mh3.xcdatamodel; sourceTree = "<group>"; };
+		FF4926381B5FE3FD00C53955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF49263B1B5FE3FD00C53955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF49263D1B5FE3FD00C53955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4926421B5FE3FE00C53955 /* mh3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mh3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4926461B5FE3FE00C53955 /* mh3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mh3Tests.swift; sourceTree = "<group>"; };
+		FF4926481B5FE3FE00C53955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF49264D1B5FE3FE00C53955 /* mh3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mh3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4926511B5FE3FE00C53955 /* mh3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mh3UITests.swift; sourceTree = "<group>"; };
+		FF4926531B5FE3FE00C53955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4926281B5FE3FD00C53955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49263F1B5FE3FE00C53955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49264A1B5FE3FE00C53955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF4926221B5FE3FD00C53955 = {
+			isa = PBXGroup;
+			children = (
+				FF49262D1B5FE3FD00C53955 /* mh3 */,
+				FF4926451B5FE3FE00C53955 /* mh3Tests */,
+				FF4926501B5FE3FE00C53955 /* mh3UITests */,
+				FF49262C1B5FE3FD00C53955 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF49262C1B5FE3FD00C53955 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF49262B1B5FE3FD00C53955 /* mh3.app */,
+				FF4926421B5FE3FE00C53955 /* mh3Tests.xctest */,
+				FF49264D1B5FE3FE00C53955 /* mh3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF49262D1B5FE3FD00C53955 /* mh3 */ = {
+			isa = PBXGroup;
+			children = (
+				FF49262E1B5FE3FD00C53955 /* AppDelegate.swift */,
+				FF4926301B5FE3FD00C53955 /* ViewController.swift */,
+				FF4926321B5FE3FD00C53955 /* Main.storyboard */,
+				FF4926381B5FE3FD00C53955 /* Assets.xcassets */,
+				FF49263A1B5FE3FD00C53955 /* LaunchScreen.storyboard */,
+				FF49263D1B5FE3FD00C53955 /* Info.plist */,
+				FF4926351B5FE3FD00C53955 /* mh3.xcdatamodeld */,
+			);
+			path = mh3;
+			sourceTree = "<group>";
+		};
+		FF4926451B5FE3FE00C53955 /* mh3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4926461B5FE3FE00C53955 /* mh3Tests.swift */,
+				FF4926481B5FE3FE00C53955 /* Info.plist */,
+			);
+			path = mh3Tests;
+			sourceTree = "<group>";
+		};
+		FF4926501B5FE3FE00C53955 /* mh3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF4926511B5FE3FE00C53955 /* mh3UITests.swift */,
+				FF4926531B5FE3FE00C53955 /* Info.plist */,
+			);
+			path = mh3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF49262A1B5FE3FD00C53955 /* mh3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4926561B5FE3FE00C53955 /* Build configuration list for PBXNativeTarget "mh3" */;
+			buildPhases = (
+				FF4926271B5FE3FD00C53955 /* Sources */,
+				FF4926281B5FE3FD00C53955 /* Frameworks */,
+				FF4926291B5FE3FD00C53955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mh3;
+			productName = mh3;
+			productReference = FF49262B1B5FE3FD00C53955 /* mh3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF4926411B5FE3FE00C53955 /* mh3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4926591B5FE3FE00C53955 /* Build configuration list for PBXNativeTarget "mh3Tests" */;
+			buildPhases = (
+				FF49263E1B5FE3FE00C53955 /* Sources */,
+				FF49263F1B5FE3FE00C53955 /* Frameworks */,
+				FF4926401B5FE3FE00C53955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF4926441B5FE3FE00C53955 /* PBXTargetDependency */,
+			);
+			name = mh3Tests;
+			productName = mh3Tests;
+			productReference = FF4926421B5FE3FE00C53955 /* mh3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF49264C1B5FE3FE00C53955 /* mh3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF49265C1B5FE3FE00C53955 /* Build configuration list for PBXNativeTarget "mh3UITests" */;
+			buildPhases = (
+				FF4926491B5FE3FE00C53955 /* Sources */,
+				FF49264A1B5FE3FE00C53955 /* Frameworks */,
+				FF49264B1B5FE3FE00C53955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF49264F1B5FE3FE00C53955 /* PBXTargetDependency */,
+			);
+			name = mh3UITests;
+			productName = mh3UITests;
+			productReference = FF49264D1B5FE3FE00C53955 /* mh3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4926231B5FE3FD00C53955 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Perfect Ware Development";
+				TargetAttributes = {
+					FF49262A1B5FE3FD00C53955 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					FF4926411B5FE3FE00C53955 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FF49262A1B5FE3FD00C53955;
+					};
+					FF49264C1B5FE3FE00C53955 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = FF49262A1B5FE3FD00C53955;
+					};
+				};
+			};
+			buildConfigurationList = FF4926261B5FE3FD00C53955 /* Build configuration list for PBXProject "mh3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4926221B5FE3FD00C53955;
+			productRefGroup = FF49262C1B5FE3FD00C53955 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF49262A1B5FE3FD00C53955 /* mh3 */,
+				FF4926411B5FE3FE00C53955 /* mh3Tests */,
+				FF49264C1B5FE3FE00C53955 /* mh3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4926291B5FE3FD00C53955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF49263C1B5FE3FD00C53955 /* LaunchScreen.storyboard in Resources */,
+				FF4926391B5FE3FD00C53955 /* Assets.xcassets in Resources */,
+				FF4926341B5FE3FD00C53955 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4926401B5FE3FE00C53955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49264B1B5FE3FE00C53955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4926271B5FE3FD00C53955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4926311B5FE3FD00C53955 /* ViewController.swift in Sources */,
+				FF49262F1B5FE3FD00C53955 /* AppDelegate.swift in Sources */,
+				FF4926371B5FE3FD00C53955 /* mh3.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF49263E1B5FE3FE00C53955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4926471B5FE3FE00C53955 /* mh3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF4926491B5FE3FE00C53955 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4926521B5FE3FE00C53955 /* mh3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF4926441B5FE3FE00C53955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF49262A1B5FE3FD00C53955 /* mh3 */;
+			targetProxy = FF4926431B5FE3FE00C53955 /* PBXContainerItemProxy */;
+		};
+		FF49264F1B5FE3FE00C53955 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF49262A1B5FE3FD00C53955 /* mh3 */;
+			targetProxy = FF49264E1B5FE3FE00C53955 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF4926321B5FE3FD00C53955 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4926331B5FE3FD00C53955 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF49263A1B5FE3FD00C53955 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF49263B1B5FE3FD00C53955 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF4926541B5FE3FE00C53955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF4926551B5FE3FE00C53955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF4926571B5FE3FE00C53955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mh3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PWD.mh3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF4926581B5FE3FE00C53955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = mh3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PWD.mh3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF49265A1B5FE3FE00C53955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mh3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PWD.mh3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mh3.app/mh3";
+			};
+			name = Debug;
+		};
+		FF49265B1B5FE3FE00C53955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mh3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PWD.mh3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mh3.app/mh3";
+			};
+			name = Release;
+		};
+		FF49265D1B5FE3FE00C53955 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mh3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PWD.mh3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mh3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FF49265E1B5FE3FE00C53955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mh3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PWD.mh3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = mh3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4926261B5FE3FD00C53955 /* Build configuration list for PBXProject "mh3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4926541B5FE3FE00C53955 /* Debug */,
+				FF4926551B5FE3FE00C53955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4926561B5FE3FE00C53955 /* Build configuration list for PBXNativeTarget "mh3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4926571B5FE3FE00C53955 /* Debug */,
+				FF4926581B5FE3FE00C53955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF4926591B5FE3FE00C53955 /* Build configuration list for PBXNativeTarget "mh3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF49265A1B5FE3FE00C53955 /* Debug */,
+				FF49265B1B5FE3FE00C53955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF49265C1B5FE3FE00C53955 /* Build configuration list for PBXNativeTarget "mh3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF49265D1B5FE3FE00C53955 /* Debug */,
+				FF49265E1B5FE3FE00C53955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF4926351B5FE3FD00C53955 /* mh3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF4926361B5FE3FD00C53955 /* mh3.xcdatamodel */,
+			);
+			currentVersion = FF4926361B5FE3FD00C53955 /* mh3.xcdatamodel */;
+			path = mh3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FF4926231B5FE3FD00C53955 /* Project object */;
+}
