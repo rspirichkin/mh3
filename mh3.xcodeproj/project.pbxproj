@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF07A6FA1B75682E002B9103 /* PWHomesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF07A6F91B75682E002B9103 /* PWHomesVC.swift */; };
 		FF49262F1B5FE3FD00C53955 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF49262E1B5FE3FD00C53955 /* AppDelegate.swift */; };
-		FF4926311B5FE3FD00C53955 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4926301B5FE3FD00C53955 /* ViewController.swift */; };
+		FF4926311B5FE3FD00C53955 /* PWBlueprintVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4926301B5FE3FD00C53955 /* PWBlueprintVC.swift */; };
 		FF4926341B5FE3FD00C53955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4926321B5FE3FD00C53955 /* Main.storyboard */; };
 		FF4926371B5FE3FD00C53955 /* mh3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF4926351B5FE3FD00C53955 /* mh3.xcdatamodeld */; };
 		FF4926391B5FE3FD00C53955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4926381B5FE3FD00C53955 /* Assets.xcassets */; };
 		FF49263C1B5FE3FD00C53955 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF49263A1B5FE3FD00C53955 /* LaunchScreen.storyboard */; };
 		FF4926471B5FE3FE00C53955 /* mh3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4926461B5FE3FE00C53955 /* mh3Tests.swift */; };
 		FF4926521B5FE3FE00C53955 /* mh3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4926511B5FE3FE00C53955 /* mh3UITests.swift */; };
+		FF4926601B5FEF8D00C53955 /* PWManagerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF49265F1B5FEF8D00C53955 /* PWManagerVC.swift */; };
+		FF90EC741B601D3300B3FAF1 /* PWContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF90EC731B601D3300B3FAF1 /* PWContainerVC.swift */; };
+		FF90EC761B60214700B3FAF1 /* PWHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF90EC751B60214700B3FAF1 /* PWHome.swift */; };
+		FFAC3D9E1B831405004134E0 /* PWRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAC3D9D1B831405004134E0 /* PWRoom.swift */; };
+		FFF2A9601B658A9300FB4951 /* HomeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF2A95F1B658A9300FB4951 /* HomeKit.framework */; };
+		FFF2A9631B658AEB00FB4951 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFF2A9621B658AEB00FB4951 /* ExternalAccessory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF07A6F91B75682E002B9103 /* PWHomesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWHomesVC.swift; sourceTree = "<group>"; };
+		FF07A6FB1B756AA6002B9103 /* mh3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mh3-Bridging-Header.h"; sourceTree = "<group>"; };
 		FF49262B1B5FE3FD00C53955 /* mh3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mh3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF49262E1B5FE3FD00C53955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF4926301B5FE3FD00C53955 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF4926301B5FE3FD00C53955 /* PWBlueprintVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PWBlueprintVC.swift; sourceTree = "<group>"; };
 		FF4926331B5FE3FD00C53955 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF4926361B5FE3FD00C53955 /* mh3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mh3.xcdatamodel; sourceTree = "<group>"; };
 		FF4926381B5FE3FD00C53955 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +58,13 @@
 		FF49264D1B5FE3FE00C53955 /* mh3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mh3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF4926511B5FE3FE00C53955 /* mh3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mh3UITests.swift; sourceTree = "<group>"; };
 		FF4926531B5FE3FE00C53955 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF49265F1B5FEF8D00C53955 /* PWManagerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWManagerVC.swift; sourceTree = "<group>"; };
+		FF90EC731B601D3300B3FAF1 /* PWContainerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWContainerVC.swift; sourceTree = "<group>"; };
+		FF90EC751B60214700B3FAF1 /* PWHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWHome.swift; sourceTree = "<group>"; };
+		FFAC3D9D1B831405004134E0 /* PWRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWRoom.swift; sourceTree = "<group>"; };
+		FFF2A95F1B658A9300FB4951 /* HomeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HomeKit.framework; path = System/Library/Frameworks/HomeKit.framework; sourceTree = SDKROOT; };
+		FFF2A9611B658A9300FB4951 /* mh3.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = mh3.entitlements; sourceTree = "<group>"; };
+		FFF2A9621B658AEB00FB4951 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF2A9631B658AEB00FB4951 /* ExternalAccessory.framework in Frameworks */,
+				FFF2A9601B658A9300FB4951 /* HomeKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +101,8 @@
 				FF4926451B5FE3FE00C53955 /* mh3Tests */,
 				FF4926501B5FE3FE00C53955 /* mh3UITests */,
 				FF49262C1B5FE3FD00C53955 /* Products */,
+				FFF2A9641B658B0A00FB4951 /* Frameworks */,
+				FF07A6FB1B756AA6002B9103 /* mh3-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +119,15 @@
 		FF49262D1B5FE3FD00C53955 /* mh3 */ = {
 			isa = PBXGroup;
 			children = (
-				FF49262E1B5FE3FD00C53955 /* AppDelegate.swift */,
-				FF4926301B5FE3FD00C53955 /* ViewController.swift */,
 				FF4926321B5FE3FD00C53955 /* Main.storyboard */,
-				FF4926381B5FE3FD00C53955 /* Assets.xcassets */,
-				FF49263A1B5FE3FD00C53955 /* LaunchScreen.storyboard */,
-				FF49263D1B5FE3FD00C53955 /* Info.plist */,
-				FF4926351B5FE3FD00C53955 /* mh3.xcdatamodeld */,
+				FF4926301B5FE3FD00C53955 /* PWBlueprintVC.swift */,
+				FF49265F1B5FEF8D00C53955 /* PWManagerVC.swift */,
+				FF90EC731B601D3300B3FAF1 /* PWContainerVC.swift */,
+				FFAC3D9D1B831405004134E0 /* PWRoom.swift */,
+				FF07A6F91B75682E002B9103 /* PWHomesVC.swift */,
+				FF90EC751B60214700B3FAF1 /* PWHome.swift */,
+				FF49262E1B5FE3FD00C53955 /* AppDelegate.swift */,
+				FFF2A9651B658B3600FB4951 /* group */,
 			);
 			path = mh3;
 			sourceTree = "<group>";
@@ -126,6 +148,27 @@
 				FF4926531B5FE3FE00C53955 /* Info.plist */,
 			);
 			path = mh3UITests;
+			sourceTree = "<group>";
+		};
+		FFF2A9641B658B0A00FB4951 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFF2A9621B658AEB00FB4951 /* ExternalAccessory.framework */,
+				FFF2A95F1B658A9300FB4951 /* HomeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFF2A9651B658B3600FB4951 /* group */ = {
+			isa = PBXGroup;
+			children = (
+				FFF2A9611B658A9300FB4951 /* mh3.entitlements */,
+				FF4926381B5FE3FD00C53955 /* Assets.xcassets */,
+				FF49263A1B5FE3FD00C53955 /* LaunchScreen.storyboard */,
+				FF49263D1B5FE3FD00C53955 /* Info.plist */,
+				FF4926351B5FE3FD00C53955 /* mh3.xcdatamodeld */,
+			);
+			name = group;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,11 +233,21 @@
 		FF4926231B5FE3FD00C53955 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Perfect Ware Development";
 				TargetAttributes = {
 					FF49262A1B5FE3FD00C53955 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = MVM3G4452G;
+						SystemCapabilities = {
+							com.apple.HomeKit = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
 					};
 					FF4926411B5FE3FE00C53955 = {
 						CreatedOnToolsVersion = 7.0;
@@ -258,7 +311,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF4926311B5FE3FD00C53955 /* ViewController.swift in Sources */,
+				FF90EC741B601D3300B3FAF1 /* PWContainerVC.swift in Sources */,
+				FF90EC761B60214700B3FAF1 /* PWHome.swift in Sources */,
+				FF4926311B5FE3FD00C53955 /* PWBlueprintVC.swift in Sources */,
+				FFAC3D9E1B831405004134E0 /* PWRoom.swift in Sources */,
+				FF4926601B5FEF8D00C53955 /* PWManagerVC.swift in Sources */,
+				FF07A6FA1B75682E002B9103 /* PWHomesVC.swift in Sources */,
 				FF49262F1B5FE3FD00C53955 /* AppDelegate.swift in Sources */,
 				FF4926371B5FE3FD00C53955 /* mh3.xcdatamodeld in Sources */,
 			);
@@ -402,10 +460,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = mh3/mh3.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = mh3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PWD.mh3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "mh3-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -413,10 +479,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = mh3/mh3.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = mh3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PWD.mh3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "mh3-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -487,6 +560,7 @@
 				FF4926581B5FE3FE00C53955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF4926591B5FE3FE00C53955 /* Build configuration list for PBXNativeTarget "mh3Tests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +569,7 @@
 				FF49265B1B5FE3FE00C53955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF49265C1B5FE3FE00C53955 /* Build configuration list for PBXNativeTarget "mh3UITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +578,7 @@
 				FF49265E1B5FE3FE00C53955 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
